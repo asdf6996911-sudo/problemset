@@ -1,155 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pacific Orca College</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: lightblue;
+        }
+        .text{
+            color: navy;
+        }
 
-<style>
+        .imageR{
+            float: right;
+            flex: 50%;
+            max-width: 600px;
+            height:auto;
+            display: block ;
+            margin-right: 20px;
+        }
 
-body{
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: lightblue;
-}
-
-/* Header */
-header{
-    text-align: center;
-    background-color: navy;
-    color: white;
-    padding: 30px;
-    font-size: 28px;
-}
-
-/* Main content wrapper */
-.container{
-    width: 85%;
-    margin: 40px auto;
-}
-
-/* Section layout */
-.section{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    background-color: white;
-    padding: 30px;
-    margin-bottom: 40px;
-    border-radius: 10px;
-}
-
-/* Alternate layout */
-.reverse{
-    flex-direction: row-reverse;
-}
-
-/* Images */
-.section img{
-    width: 40%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 8px;
-}
-
-/* Text styling */
-.text{
-    width: 60%;
-    color: navy;
-}
-
-.text h1, .text h2{
-    margin-top: 0;
-}
-
-ul, ol{
-    padding-left: 20px;
-}
-
-/* Mobile Responsive */
-@media (max-width: 768px){
-    .section{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .section img,
-    .text{
-        width: 100%;
-    }
-}
-
-</style>
+    </style>
 </head>
-
 <body>
+    <div class = "text">
+    <div style = "text-align: center; border: 5px solid navy; paddding:10px">
+        <h1>Introducing the Orcas</h1>
+    </div>
+    <div style = "text-align: center;">
+    <h2>Welcome to Pacific Orca College, where academic excellence meets coastal inspiration. Founded to blend rigorous scholarship with innovation and community engagement, Pacific Orca College stands as a beacon of opportunity on the West Coast. Nestled near the Pacific shoreline, our campus fosters a vibrant learning environment where future leaders explore new ideas, embrace global challenges, and make meaningful contributions to society.
 
-<header>
-Welcome to Pacific Orca College! We're excited to have you consider joining our community. Below you’ll find everything you need to know about the application process, tuition, deadlines, and financial aid.
-</header>
+    At Pacific Orca College, students benefit from a personalized educational experience with small class sizes, expert faculty mentorship, and hands-on learning opportunities — including cutting-edge research, internships with industry partners, and immersive fieldwork along the coast. Our Orca mascot symbolizes strength, intelligence, teamwork, and adaptability — qualities we encourage in every student.
 
-<div class="container">
-
-<!-- Section 1 -->
-<div class="section">
-    <img src="deadline.jpg" alt="Application Deadlines">
-    <div class="text">
-        <h2>Application Deadlines</h2>
+    Whether pursuing undergraduate degrees, advanced research, or community-centered service, Orca students grow academically, socially, and professionally in a supportive and inclusive culture.
+    </h2>
+    </div>
+    <div style = "text-align: center; border: 5px solid navy; paddding:10px">
+    <h1>Our Achievements</h1>
+    <h2>
+        Pacific Orca College has earned recognition for academic excellence, innovation, and community leadership:
+    </h2>
+    </div>
+    <div style="border: 5px solid navy; paddding:10px">
+        <img class= "imageR" src="achieve.jpg" alt="Books">
+    <h3>
+        Academic & Research Honors
         <ul>
-            <li>Early Action: November 1</li>
-            <li>Regular Decision: January 15</li>
-            <li>Transfer Application: March 1</li>
+            <li>
+                Top 50 National College for Undergraduate Research — Recognized for student involvement in original research projects across sciences and humanities.
+            </li>
+            <li>
+                Excellence in Marine Science Award — Faculty and students honored for breakthroughs in ocean conservation and climate resilience studies.
+            </li>
+            <li>
+                Innovators in Technology Grant — Multi-year funding secured for development of sustainable coastal technology initiatives.
+            </li>
         </ul>
-    </div>
-</div>
-
-<!-- Section 2 -->
-<div class="section reverse">
-    <img src="apply.jpg" alt="How to Apply">
-    <div class="text">
-        <h2>How to Apply</h2>
-        <p>
-            We accept applications via the Common Application and our Pacific Orca College Application Portal.
-        </p>
-        <p>To apply, simply:</p>
-        <ol>
-            <li>Complete the application form</li>
-            <li>Submit your high school transcripts or college transcripts (for transfer students)</li>
-            <li>Provide 1-2 letters of recommendation</li>
-            <li>Write your personal statement or essay</li>
-        </ol>
-    </div>
-</div>
-
-<!-- Section 3 -->
-<div class="section">
-    <img src="study.jpg" alt="Admission Requirements">
-    <div class="text">
-        <h2>Admission Requirements</h2>
+    </h3>
+    <h3>
+        Inpact & Community Engagement
         <ul>
-            <li>High School GPA: 3.0 or higher (on a 4.0 scale)</li>
-            <li>SAT/ACT Scores: Optional for the 2026 cycle (superscoring accepted)</li>
-            <li>Essay: Personal statement or response to a provided prompt</li>
-            <li>Letters of Recommendation: 1-2 letters from teachers, mentors, or employers</li>
+            <li>
+                Community Catalyst Award — Acknowledged for service programs that support local communities through education, health outreach, and environmental stewardship.
+            </li>
+            <li>
+                Orca Service Corps — A student-led initiative providing tutoring, coastal cleanups, and public awareness campaigns that reached over 10,000 individuals regionally.
+            </li>
         </ul>
-    </div>
-</div>
-
-<!-- Section 4 -->
-<div class="section reverse">
-    <img src="piggy.jpg" alt="Tuition and Fees">
-    <div class="text">
-        <h2>Tuition & Fees</h2>
+    </h3>
+    <h3>
+        Athletics & Spirit
         <ul>
-            <li>In-State Tuition: $22,500 per year</li>
-            <li>Out-of-State Tuition: $27,000 per year</li>
-            <li>Room & Board: $14,000 per year</li>
-            <li>Additional Fees: Technology, activity, and health fees apply.</li>
+            <li>
+                Conference Champions — Mens Soccer (2024) — Orcas soccer team clinched the championship with a record-breaking season.
+            </li>
+            <li>
+                Spirit of the Coast Award — Recognized for outstanding student engagement and campus culture centered on pride and school spirit.
+            </li>
         </ul>
+    </h3>
     </div>
-</div>
-
-</div>
-
+    </div>
 </body>
 </html>
