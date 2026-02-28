@@ -1,98 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Student Life</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: lightblue;
+        }
+        .text{
+            color: navy;
+        }
 
-<style>
+        .imageR{
+            float: right;
+            flex: 50%;
+            max-width: 200px;
+            height:auto;
+            display: block ;
+            margin-right: 20px;
+        }
 
-body {
-    margin: 0;
-    font-family: Verdana, sans-serif;
-    background-color: #dbeeff; /* light blue background */
-}
-
-header {
-    text-align: center;
-    padding: 30px;
-    background-color: #1b3a6b; /* navy */
-    color: white;
-    font-size: 36px;
-}
-
-.section {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    background-color: white;
-    margin: 40px auto;
-    padding: 40px;
-    width: 85%;
-    border-radius: 10px;
-}
-
-.section img {
-    width: 45%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.text {
-    width: 55%;
-    color: navy;
-}
-
-/* Alternate second section */
-.reverse {
-    flex-direction: row-reverse;
-}
-
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-    .section {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .section img,
-    .text {
-        width: 100%;
-    }
-}
-
-</style>
+    </style>
 </head>
-
 <body>
-
-<header>
-    Student Life
-</header>
-
-<div class="section">
-    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1" alt="Students studying">
-    <div class="text">
-        <h2>Campus Community</h2>
-        <p>
-            Student life is filled with opportunities to connect with others, join clubs, 
-            and build lifelong friendships. From study groups to campus events, students 
-            experience a vibrant and welcoming community that encourages growth and collaboration.
-        </p>
+    <div class = "text">
+    <div style="text-align: center;">
+    <h1>Welcome to Pacific Orca College! We're excited to have you consider joining our community. Below you’ll find everything you need to know about the application process, tuition, deadlines, and financial aid.
+    </h1>
     </div>
-</div>
-
-<div class="section reverse">
-    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7" alt="Students at event">
-    <div class="text">
-        <h2>Activities & Events</h2>
-        <p>
-            Beyond academics, student life includes sports, organizations, volunteer work, 
-            and social events. These activities help students develop leadership skills, 
-            discover new interests, and create unforgettable memories throughout their journey.
-        </p>
+    <div style="text-align: left; border: 5px solid navy; paddding:20px">
+        <img src="deadline.jpg" class="imageR" style="text-align: left;">
+    <h2>
+        Application Deadlines
+    </h2>
+    <h3>
+        <ul>
+            <li>
+                Early Action: November 1
+            </li>
+            <li>
+                Regular Decision: January 15
+            </li>
+            <li>
+                Transfer Application: March 1
+            </li>
+        </ul>
+    </h3>
     </div>
-</div>
+    <div style="text-align: left; border: 5px solid navy; paddding:20px">
+        <img src="apply.jpg" class="imageR">
 
+    <h1>How to Apply</h1>
+    <h2>
+        We accept applications via the Common Application and our Pacific Orca College Application Portal.
+
+        To apply, simply:
+    </h2>
+    <h3>
+        <ol>
+            <li>
+                Complete the application form
+            </li>
+            <li>
+                Submit your high school transcripts or college transcripts (for transfer students)
+            </li>
+            <li>
+                Provide 1-2 letters of recommendation
+            </li>
+            <li>
+                Write your personal statement or essay
+            </li>
+        </ol>
+    </h3>
+    </div>
+    <div style="text-align: left; border: 5px solid navy; paddding:20px">
+        <img src="study.jpg" class="imageR" style="text-align: left;">
+    <h2>
+        Admission Requirements
+    </h2>
+    <h3>
+        <ul>
+            <li>
+                High School GPA: 3.0 or higher (on a 4.0 scale)
+            </li>
+            <li>
+                SAT/ACT Scores: Optional for the 2026 cycle (superscoring accepted)
+            </li>
+            <li>
+                Essay: Personal statement or response to a provided prompt
+            </li>
+            <li>
+                Letters of Recommendation: 1-2 letters from teachers, mentors, or employers
+            </li>
+        </ul>
+    </h3>
+    </div>
+    <div style="text-align: left; border: 5px solid navy; paddding:20px">
+        <img src="piggy.jpg" class="imageR" style="text-align: left;">
+     <h2>
+        Tuition & Fees
+    </h2>
+    <h3>
+        <ul>
+            <li>
+                In-State Tuition: $22,500 per year
+            </li>
+            <li>
+                Out-of-State Tuition: $27,000 per year
+            </li>
+            <li>
+                Room & Board: $14,000 per year
+            </li>
+            <li>
+                Additional Fees: Technology, activity, and health fees apply.
+            </li>
+        </ul>
+    </h3>
+    </div>
+    </div>
 </body>
-</html>
